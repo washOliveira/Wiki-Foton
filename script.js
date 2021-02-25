@@ -52,18 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	]
 
-	const listaSalas = [
-		{
-			nome: 'Cartões',
-			linkMeet: 'https://meet.google.com/hbz-bbpi-wqw',
-			linkTeams: 'https://teams.microsoft.com/dl/launcher/launcher.html?url=%2f_%23%2fl%2fmeetup-join%2f19%3ameeting_OWVhYTY2YjgtM2ZlMS00YjllLTgyNzEtYTEwYTJlNTQ5OTlj%40thread.v2%2f0%3fcontext%3d%257b%2522Tid%2522%253a%2522ab9bba98-684a-43fb-add8-9c2bebede229%2522%252c%2522Oid%2522%253a%2522680dfc41-21e8-4379-aec2-0dc5c344afbd%2522%257d%26anon%3dtrue&type=meetup-join&deeplinkId=922e5992-9459-4a72-892f-98904093caee&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true'
-		},
-		{
-			nome: 'FGTS',
-			link: ''
-		}
-	]
-
 const gridAtalhos = document.querySelector('.gridAtalhos');
 
  function createGridAtalhos() {
@@ -81,12 +69,6 @@ const gridAtalhos = document.querySelector('.gridAtalhos');
   }
 
   const gridSalas = document.querySelector(".gridSalas");
-
-  function createGridSalas(){
-  	for (let j = 0; j < listaSalas.length; j++){
-  		
-  	}
-  }
 
   createGridAtalhos();
 
